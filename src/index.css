@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { background-color: #0f0f13; color: #e2e8f0; -webkit-font-smoothing: antialiased; }
+  kbd {
+    @apply inline-block bg-card border border-white/15 border-b-2 rounded px-2 py-0.5 font-mono text-[0.8em] text-slate-200;
+  }
+  code {
+    @apply font-mono text-[0.85em] bg-[#0d0d12] border border-white/10 rounded px-1.5 py-0.5 text-indigo-300;
+  }
+  pre code { @apply text-slate-300 text-sm; }
+}
