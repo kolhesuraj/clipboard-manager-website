@@ -95,7 +95,7 @@ export function LightMockupCard({ className = '', style = {} }: { className?: st
 interface BgMockupProps {
   side: 'left' | 'right'
   theme: 'dark' | 'light'
-  /** bg colour of the section for gradient blend — omit or leave empty to skip gradient */
+  /** bg color of the section for gradient blend — omit or leave empty to skip gradient */
   sectionBg?: string
   opacity?: number
   /** override position wrapper class */
