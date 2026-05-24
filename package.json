@@ -4,6 +4,12 @@
   "version": "1.0.0",
   "license": "MIT",
   "type": "module",
+  "homepage": "https://github.com/kolhesuraj/clipboard-manager-website",
+  "description": "Website for Clipboard Manager app built with React and Vite",
+  "author": {
+    "name": "Suraj Kolhe",
+    "email": "surajkolhe214@gmail.com"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

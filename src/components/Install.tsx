@@ -5,7 +5,7 @@ const STEPS = [
   },
   {
     label: '2 — Clone and install',
-    code: `git clone https://github.com/your-username/clipboard-manager.git\ncd clipboard-manager/app\nnpm install`,
+    code: `git clone https://github.com/kolhesuraj/clipboard-manager-app.git\ncd clipboard-manager/app\nnpm install`,
   },
   {
     label: '3 — Build',

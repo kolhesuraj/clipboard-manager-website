@@ -1,4 +1,4 @@
-const GITHUB = 'https://github.com/your-username/clipboard-manager'
+const GITHUB = 'https://github.com/kolhesuraj/clipboard-manager-website';
 
 export default function Footer() {
   return (
@@ -12,12 +12,33 @@ export default function Footer() {
           Clipboard Manager
         </span>
         <div className="flex gap-6">
-          <a href={GITHUB} target="_blank" rel="noreferrer" className="text-sm text-slate-400 hover:text-slate-200 transition-colors">GitHub</a>
-          <a href={`${GITHUB}/blob/main/CONTRIBUTING.md`} target="_blank" rel="noreferrer" className="text-sm text-slate-400 hover:text-slate-200 transition-colors">Contributing</a>
-          <a href={`${GITHUB}/issues`} target="_blank" rel="noreferrer" className="text-sm text-slate-400 hover:text-slate-200 transition-colors">Issues</a>
+          <a
+            href={GITHUB}
+            target="_blank"
+            rel="noreferrer"
+            className="text-sm text-slate-400 hover:text-slate-200 transition-colors"
+          >
+            GitHub
+          </a>
+          <a
+            href={`${GITHUB}/blob/main/CONTRIBUTING.md`}
+            target="_blank"
+            rel="noreferrer"
+            className="text-sm text-slate-400 hover:text-slate-200 transition-colors"
+          >
+            Contributing
+          </a>
+          <a
+            href={`${GITHUB}/issues`}
+            target="_blank"
+            rel="noreferrer"
+            className="text-sm text-slate-400 hover:text-slate-200 transition-colors"
+          >
+            Issues
+          </a>
         </div>
         <span className="text-xs text-slate-500">MIT License · Built for Linux</span>
       </div>
     </footer>
-  )
+  );
 }

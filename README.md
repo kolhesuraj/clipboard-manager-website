@@ -17,7 +17,8 @@ Deploy to any static host (GitHub Pages, Netlify, Vercel) — zero backend requi
 ## Development
 
 ```bash
-cd website
+git clone https://github.com/kolhesuraj/clipboard-manager-website.git
+cd clipboard-manager-website
 npm install
 npm run dev        # starts dev server at http://localhost:5173
 ```
@@ -76,6 +77,6 @@ website/
 
 ## Customisation
 
-- **GitHub URL** — search for `your-username` and replace with the real org/user in `Nav.tsx`, `Hero.tsx`, and `Footer.tsx`.
+- **GitHub URL** — search for `kolhesuraj` and replace with the real org/user in `Nav.tsx`, `Hero.tsx`, and `Footer.tsx`.
 - **Colors** — primary accent is Tailwind `indigo-500`. Change globally via the `tailwind.config.js` `extend.colors` block.
 - **Content** — all section copy lives directly in each component file; no CMS or external data source.

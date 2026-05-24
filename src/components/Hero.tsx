@@ -1,6 +1,6 @@
 import { BgMockup } from './MockupBg.tsx';
 
-const GITHUB = 'https://github.com/your-username/clipboard-manager';
+const GITHUB = 'https://github.com/kolhesuraj/clipboard-manager-website';
 
 export default function Hero() {
   return (

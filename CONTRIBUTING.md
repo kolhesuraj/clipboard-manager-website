@@ -1,13 +1,14 @@
 # Contributing to the Website
 
-This covers how to work on the landing page. For contributing to the Electron app itself, see the [app CONTRIBUTING guide](../CONTRIBUTING.md).
+This covers how to work on the landing page. For contributing to the Electron app itself, see the [app CONTRIBUTING guide](https://github.com/kolhesuraj/clipboard-manager-app.git).
 
 ---
 
 ## Setup
 
 ```bash
-cd website
+git clone https://github.com/kolhesuraj/clipboard-manager-website.git
+cd clipboard-manager-website
 npm install
 npm run dev
 ```
@@ -43,7 +44,7 @@ Custom design tokens (background colors, border opacity) are defined in `tailwin
 - [ ] `npm run build` passes with zero TypeScript errors
 - [ ] Page looks correct on both desktop (1280px+) and mobile (375px)
 - [ ] No hardcoded `localhost` URLs in production content
-- [ ] Replace `your-username` placeholder if adding real GitHub links
+- [ ] Replace `kolhesuraj` placeholder if adding real GitHub links
 
 ---
 

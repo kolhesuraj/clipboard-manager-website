@@ -1,4 +1,4 @@
-const GITHUB = 'https://github.com/your-username/clipboard-manager'
+const GITHUB = 'https://github.com/kolhesuraj/clipboard-manager-website';
 
 export default function Nav() {
   return (
@@ -9,9 +9,24 @@ export default function Nav() {
           Clipboard Manager
         </span>
         <div className="flex items-center gap-7">
-          <a href="#features" className="text-slate-400 hover:text-slate-200 text-sm transition-colors hidden sm:block">Features</a>
-          <a href="#how-it-works" className="text-slate-400 hover:text-slate-200 text-sm transition-colors hidden sm:block">How It Works</a>
-          <a href="#install" className="text-slate-400 hover:text-slate-200 text-sm transition-colors hidden sm:block">Install</a>
+          <a
+            href="#features"
+            className="text-slate-400 hover:text-slate-200 text-sm transition-colors hidden sm:block"
+          >
+            Features
+          </a>
+          <a
+            href="#how-it-works"
+            className="text-slate-400 hover:text-slate-200 text-sm transition-colors hidden sm:block"
+          >
+            How It Works
+          </a>
+          <a
+            href="#install"
+            className="text-slate-400 hover:text-slate-200 text-sm transition-colors hidden sm:block"
+          >
+            Install
+          </a>
           <a
             href={GITHUB}
             target="_blank"
@@ -23,7 +38,7 @@ export default function Nav() {
         </div>
       </div>
     </nav>
-  )
+  );
 }
 
 function ClipIcon() {
@@ -32,5 +47,5 @@ function ClipIcon() {
       <rect width="28" height="28" rx="7" fill="#6366f1" />
       <path d="M8 9h12M8 13h12M8 17h8" stroke="#fff" strokeWidth="2" strokeLinecap="round" />
     </svg>
-  )
+  );
 }
