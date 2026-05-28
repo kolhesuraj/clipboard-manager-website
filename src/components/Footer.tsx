@@ -37,7 +37,17 @@ export default function Footer() {
             Issues
           </a>
         </div>
-        <span className="text-xs text-slate-500">MIT License · Built for Linux</span>
+        <span className="text-xs text-slate-500">
+          MIT License · Built for Linux · by{' '}
+          <a
+            href="https://github.com/kolhesuraj"
+            target="_blank"
+            rel="noreferrer"
+            className="text-slate-400 hover:text-slate-200 transition-colors"
+          >
+            Suraj Kolhe
+          </a>
+        </span>
       </div>
     </footer>
   );
