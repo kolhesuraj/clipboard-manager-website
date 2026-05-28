@@ -22,7 +22,7 @@ const FEATURES = [
   {
     icon: '📌',
     title: 'Pin Items',
-    desc: "Click the 📌 at the start of any row to pin it instantly. Pinned snippets — API keys, boilerplate, URLs — never rotate out of history.",
+    desc: 'Click the 📌 at the start of any row to pin it instantly. Pinned snippets — API keys, boilerplate, URLs — never rotate out of history.',
   },
   {
     icon: '🎨',
@@ -49,14 +49,11 @@ const FEATURES = [
     title: 'Zero Port Conflicts',
     desc: 'Uses a Unix socket instead of a TCP port — no firewall rules, no conflicts with other services on any machine.',
   },
-]
-
-import { BgMockup } from './MockupBg.tsx'
+];
 
 export default function Features() {
   return (
     <section id="features" className="relative overflow-hidden py-24">
-      <BgMockup side="left" theme="dark" sectionBg="#0f0f13" opacity={0.30} />
       <div className="relative z-10 max-w-5xl mx-auto px-6">
         <h2 className="text-3xl lg:text-4xl font-extrabold tracking-tight text-center text-slate-100 mb-4">
           Everything you need, nothing you don&apos;t
@@ -78,6 +75,5 @@ export default function Features() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-
