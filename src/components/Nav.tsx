@@ -1,4 +1,4 @@
-import clipIconUrl from '../assets/clip-icon.svg';
+import ClipIcon from '../assets/ClipIcon.tsx';
 
 const GITHUB = 'https://github.com/kolhesuraj/clipboard-manager-app';
 
@@ -7,7 +7,7 @@ export default function Nav() {
     <nav className="sticky top-0 z-50 bg-[#0f0f13]/85 backdrop-blur-md border-b border-white/[0.07]">
       <div className="max-w-5xl mx-auto px-6 flex items-center justify-between h-[60px] gap-6">
         <span className="flex items-center gap-2.5 font-bold text-slate-200 whitespace-nowrap">
-          <img src={clipIconUrl} width="28" height="28" alt="" aria-hidden="true" />
+          <ClipIcon />
           Clipboard Manager
         </span>
         <div className="flex items-center gap-7">
